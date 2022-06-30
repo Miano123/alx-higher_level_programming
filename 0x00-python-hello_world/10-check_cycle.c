@@ -17,14 +17,14 @@ int check_cycle(listint_t *list)
 	shiv = list;
 	while (pev->next->next != NULL && shiv->next != NULL)
 	{
-		pev = panda->next->next;
+		pev = pev->next->next;
 		shiv = shiv->next;
 		if (pev == shiv)
 		{
 			pev = list;
 			while (pev != shiv)
 			{
-				pev = panda->next;
+				pev = pev->next;
 				shiv = shiv->next;
 			}
 			return (1);
