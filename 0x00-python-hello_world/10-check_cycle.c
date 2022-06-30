@@ -8,23 +8,23 @@
 
 int check_cycle(listint_t *list)
 {
-	listint_t *panda;
+	listint_t *pev;
 	listint_t *shiv;
 
 	if (list == NULL)
 		return (0);
-	panda = list;
+	pev = list;
 	shiv = list;
-	while (panda->next->next != NULL && shiv->next != NULL)
+	while (pev->next->next != NULL && shiv->next != NULL)
 	{
-		panda = panda->next->next;
+		pev = panda->next->next;
 		shiv = shiv->next;
-		if (panda == shiv)
+		if (pev == shiv)
 		{
-			panda = list;
-			while (panda != shiv)
+			pev = list;
+			while (pev != shiv)
 			{
-				panda = panda->next;
+				pev = panda->next;
 				shiv = shiv->next;
 			}
 			return (1);
