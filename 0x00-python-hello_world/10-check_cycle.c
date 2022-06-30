@@ -3,8 +3,7 @@
 /**
   * check_cycle - checks if singly linked list has a cycle
   * @list: pointer to the list
-  * Return: 0 if no cycle
-  * 1 if there is a cycle
+  * Return: 0 if no cycle or 1 if there is a cycle
   */
 
 int check_cycle(listint_t *list)
