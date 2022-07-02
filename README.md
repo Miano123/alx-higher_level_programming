@@ -1,1 +1,1 @@
-Python high level programming
+Python - if/else, loops, functions
