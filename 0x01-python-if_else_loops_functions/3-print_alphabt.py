@@ -2,5 +2,5 @@
 for letter in range(97, 123):
     if(letter == 101 or letter == 113):
         continue
-    else: 
+    else:
         print("{:c}".format(letter), end="")
