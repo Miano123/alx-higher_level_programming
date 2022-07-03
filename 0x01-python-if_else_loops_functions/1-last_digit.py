@@ -8,4 +8,3 @@ elif number > 0:
     print(f"Last digit of {number} is {last_digit} and is greater than 5")
 else:
     print(f"Last digit of {number} is {last_digit} and is 0")
-
