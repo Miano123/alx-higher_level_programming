@@ -94,7 +94,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, int idx, int n)
 
 int find_node(listint_t **h, int number)
 {
-	listint_t *number = *h;
+	listint_t number = *h;
 	int count = 0;
 
 	while (numnode != NULL)
